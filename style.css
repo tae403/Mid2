@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 16px;
+    background-color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+header button {
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+header h1 button {
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+
+
+
+
+
+.sidebar {
+    position: absolute;
+    top: 99px;
+    width: 150px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar li {
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar li.watch {
+    background-color: #fff;
+    color: #333;
+}
+
+.sidebar img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 5px;
+}
+
+
+
+
+
+
+
+
+
+.main-content {
+    flex: 1;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 99px;
+    left: 150px;
+    padding: 30px;
+}
+
+.top-bar {
+    background-color: #fff;
+    justify-content: flex-end;
+    border: 1px solid transparent;
+    height: 150px;
+    padding: 30px;
+}
+
+.tools {
+    float: right;
+    margin: 0 20px;
+}
+
+.tools button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.clock-container {
+    background-color: #fff;
+    flex: 1;
+    height: 400px;
+    text-align: center;
+}
+
+.clock-container h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#time {
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+
+}
+
+#lbl-noon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+#lbl-time {
+    margin-left: 10px;
+    font-size: 120px;
+}
+
+#date {
+    font-size: 36px;
+    margin-top: 20px;
+}
