@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날짜&시간 시계 웹페이지</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <button>Happy clock<br>
+                    온라인 시계
+                </button>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button>공휴일</button>
+                    </li>
+                    <li>
+                        <button>도구↓</button>
+                    </li>
+                    <li>
+                        <button>설정⚙️</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <aside class="sidebar">
+        <ul>
+            <li><img src="자명종.jpg">자명종</li>
+            <li><img src="타이머.jpg">타이머</li>
+            <li><img src="스톱워치.jpg">스톱워치</li>
+            <li class="watch"><img src="시계.png">시계</li>
+        </ul>
+    </aside>
+
+
+
+
+
+    <main class="main-content">
+        <div class="top-bar">
+            <div class="tools">
+                <button title="공유">🔗</button>
+                <button title="작게">➖</button>
+                <button title="크게">➕</button>
+                <button title="전체화면">⛶</button>
+            </div>
+        </div>
+
+        <div class="clock-container">
+            <h1>현재 시간</h1>
+            <div id="time">
+                <span id="lbl-noon">--</span>
+                <span id="lbl-time">00:00:00</span>
+            </div>
+            <div id="date">0000년 0월 0일 (요일)</div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
